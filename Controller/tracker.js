@@ -3,11 +3,12 @@ const validator = require('../Utilities/validator');
 const helper = require('../Utilities/helpers');
 
 exports.addDefect = async (req, res) => {
+// hggjsh
   try {
     if (
       validator.ValidateName(req.body.Logger) &&
       validator.ValidateCategory(req.body.Category)
-    ) {
+    )
       const Id = await helper.generateDefectId();
       const defect = await repo.create({
         DefectID: Id,
