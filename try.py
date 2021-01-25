@@ -1,3 +1,10 @@
+def fact(num, n):
+    if(x1 > num):
+        d1 = x1-n
+        x1 = ((d*3)//2)
+        r1 = ((d*3) % 2)
+
+
 m = 12
 four = 2
 three = 2
